@@ -5,7 +5,7 @@
 package com.deepak.interviewbit.LinkedList;
 
 /**
- * <br>
+ * <br> Problem Statement :
  * Given a singly linked list, determine if its a palindrome. 
  * Return 1 or 0 denoting if its a palindrome or not, respectively.
  * 
@@ -18,7 +18,7 @@ package com.deepak.interviewbit.LinkedList;
  * @author Deepak
  */
 public class PalindromeList {
-	
+
 	/**
 	 * Main method to test the algorithm
 	 * @param args
@@ -35,24 +35,24 @@ public class PalindromeList {
 		D.next = E;
 		System.out.println(isPalindrome(A));
 	}
-	
+
 	/* Approach : Divide the linked list into half by finding the middle element.
 	 * Reverse the first half and then compare the elements, if matches then it's palindrome*/
 	public static int isPalindrome(ListNode A) {
-		
+
 		/* Size is needed to keep track of number of elements */
 		int size = 0;
-		
+
 		/* Find number of elements in the list */
 		ListNode current = A;
 		while (null != current) {
 			current = current.next;
 			size++;
 		}
-		
+
 		/* Reset the current node */
 		current = A;
-		
+
 		/* Revert the first half of the nodes */
 		ListNode previous = null;
 		for (int i = 0; i < size/2; i++) {
@@ -61,7 +61,7 @@ public class PalindromeList {
 			previous = current;
 			current = temp;
 		}
-		
+
 		/* Previous is the head of reverted first half, 
 		 * and current is the head of second half.
 		 * If we have odd numbers in the list, then
@@ -69,7 +69,7 @@ public class PalindromeList {
 		if (size % 2 == 1 && previous != null) {
 			current = current.next;
 		}
-		
+
 		/* Compare the reverted first half and second half */ 
 		while (previous != null && current != null) {
 			if (previous.val != current.val) {
@@ -80,16 +80,16 @@ public class PalindromeList {
 		}
 		return 1;
 	}
-	
+
 	/**
 	 * ListNode class 
 	 * @author Deepak
 	 */
 	static class ListNode {
-		
+
 		public int val;
 		public ListNode next;
-		
+
 		ListNode(int x) {
 			val = x; 
 			next = null; 
@@ -99,7 +99,7 @@ public class PalindromeList {
 		public String toString() {
 			return "ListNode [val=" + val + "]";
 		}
-		
+
 	}
 
 }

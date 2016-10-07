@@ -4,6 +4,8 @@
  */
 package com.deepak.interviewbit.LinkedList;
 
+import java.util.Stack;
+
 /**
  * <br> Problem Statement :
  * Given a singly linked list, determine if its a palindrome. 
@@ -33,7 +35,19 @@ public class PalindromeList {
 		B.next = C;
 		C.next = D;
 		D.next = E;
-		System.out.println(isPalindrome(A));
+		
+		ListNode V = new ListNode(1);
+		ListNode W = new ListNode(2);
+		ListNode X = new ListNode(3);
+		ListNode Y = new ListNode(3);
+		ListNode Z = new ListNode(1);
+		V.next = W;
+		W.next = X;
+		X.next = Y;
+		Y.next = Z;
+		
+		System.out.println("Approach 1 by dividing the list into half and reversing it => " + isPalindrome(A));
+		System.out.println("Approach 2 by using additional data structure like stack => " + isPalindromeApproach2(V));
 	}
 
 	/* Approach : Divide the linked list into half by finding the middle element.
@@ -77,6 +91,30 @@ public class PalindromeList {
 			}
 			previous = previous.next;
 			current = current.next;
+		}
+		return 1;
+	}
+	
+	/* NOTE : This solution is not constant in space as question demands. 
+	 * We are using extra space here, because we are creating a new stack. */
+	public static int isPalindromeApproach2(ListNode A) {
+		/* Stack to hold the entries from the list */
+		Stack<Integer> stack = new Stack<>();
+		
+		/* Fill the stack with entries one by one */
+		ListNode temp = A;
+		while (temp != null) {
+			stack.add(temp.val);
+			temp = temp.next;
+		}
+		
+		/* Now, start comparing each element one by one from list and stack */
+		ListNode nodeFromList = A;
+		while (nodeFromList != null && !stack.isEmpty()) {
+			if (nodeFromList.val != stack.pop()) {
+				return 0;
+			}
+			nodeFromList = nodeFromList.next;
 		}
 		return 1;
 	}

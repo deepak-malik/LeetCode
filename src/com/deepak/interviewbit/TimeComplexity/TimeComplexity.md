@@ -12,7 +12,7 @@ for (j = 0; j < M; j++) {
 ```
 Assume that rand() is O(1) time, O(1) space function.  
 
-_**Answer :**_
+_**Answer :**_  
 _O(N * M) time, O(1) space  
 O(N + M) time, O(N + M) space  
 **O(N + M) time, O(1) space**  
@@ -33,7 +33,7 @@ for (k = 0; k < N; k++) {
 } 
 ```
 
-_**Answer :**_
+_**Answer :**_  
 _**O(N * N) time, O(1) space**  
 O(N) time, O(N) space  
 O(N) time, O(N) space  
@@ -51,7 +51,7 @@ for (i = 0; i < N; i++) {
 }
 ```
 
-_**Answer :**_
+_**Answer :**_  
 _O(N)  
 O(N X log(N))  
 **O(N ^ 2)**  
@@ -60,11 +60,11 @@ O(N X Sqrt(N))_
 
 **4. What does it mean when we say that an algorithm X is asymptotically more efficient than Y?**
 
-_**Answer :**_
-_X will always be a better choice for all inputs
-X will always be a better choice for large inputs
-**X will always be a better choice for small inputs**
-Y will always be a better choice for small inputs_
+_**Answer :**_  
+_X will always be a better choice for all inputs  
+X will always be a better choice for large inputs  
+**X will always be a better choice for small inputs**  
+Y will always be a better choice for small inputs_  
 ************************************************************
 
 **5. What is the time complexity of the following code :**
@@ -76,12 +76,12 @@ while (i > 0) {
 }
 ```
 
-_**Answer:**_
-_O(N)
-O(Sqrt(N))
-O(N / 2)
-**O(log N)**
-O(log(log N))_
+_**Answer:**_  
+_O(N)  
+O(Sqrt(N))  
+O(N / 2)  
+**O(log N)**  
+O(log(log N))_  
 ************************************************************
 
 **6. What is time complexity of following code :**
@@ -94,12 +94,12 @@ for (int i = N; i > 0; i /= 2) {
 }
 ```
 
-_**Answer:**_
-_O(N * N)
-O(N * log N)
-O(N * log(log(N)))
-**O(N)**
-O(N * Sqrt(N))_
+_**Answer:**_  
+_O(N * N)  
+O(N * log N)  
+O(N * log(log(N)))  
+**O(N)**  
+O(N * Sqrt(N))_  
 ************************************************************
 
 **7. What is the time complexity of the following code :**
@@ -112,12 +112,12 @@ for (i  = n/2; i <= n; i++) {
 }
 ```
 
-_**Answer:**_
-_Θ(n)
-**Θ(nLogn)**
-Θ(n^2)
-Θ(n^2 / Logn)
-Θ(n^2Logn)_
+_**Answer:**_  
+_Θ(n)  
+**Θ(nLogn)**  
+Θ(n^2)  
+Θ(n^2 / Logn)  
+Θ(n^2Logn)_  
 ************************************************************
 
 **8. In the following C++ function, let n >= m. What is the time complexity of the below function assuming n > m?**
@@ -133,20 +133,20 @@ int gcd(int n, int m) {
 }
 ```
 
-_**Answer:**_
-_**Θ(logn)**
-Ω(n)
-Θ(loglogn)
-Θ(sqrt(n))_
+_**Answer:**_  
+_**Θ(logn)**  
+Ω(n)  
+Θ(loglogn)  
+Θ(sqrt(n))_  
 ************************************************************
 
 **9. Which of the following is not bounded by O(n^2)?**
 
-_**Answer:**_
-_(15^10) * n + 12099
-n^1.98
-**n^3 / (sqrt(n))**
-(2^20) * n_
+_**Answer:**_  
+_(15^10) * n + 12099  
+n^1.98  
+**n^3 / (sqrt(n))**  
+(2^20) * n_  
 ************************************************************
 
 **10. In a competition, four different functions are observed. All the functions use a single for loop and within the for loop, same set of statements are executed.**
@@ -159,11 +159,11 @@ D) for(i = n; i > -1; i /= 2)
 
 If n is the size of input(positive), which function is the most efficient? In other words, which loop completes the fastest.
 
-_**Answer:**_
-_A
-B
-**C**
-D_
+_**Answer:**_  
+_A  
+B  
+**C**  
+D_  
 ************************************************************
 
 **11. Which of the given options provides the increasing order of complexity of functions f1, f2, f3 and f4:**
@@ -174,11 +174,11 @@ f3(n) = nLogn
 f4(n) = n^(Logn)
 ```
 
-_**Answer:**_
-_**f3, f2, f4, f1**
-f3, f2, f1, f4
-f2, f3, f1, f4
-f2, f3, f4, f1_
+_**Answer:**_  
+_**f3, f2, f4, f1**  
+f3, f2, f1, f4  
+f2, f3, f1, f4  
+f2, f3, f4, f1_  
 ************************************************************
 
 **12. What is the worst case time complexity of the following code :**
@@ -197,13 +197,13 @@ int searchNumOccurrence(vector<int> &V, int k, int start, int end) {
 }
 ```
 
-_**Answer:**_
-_O(sqrt N)
-O(log N)
-O(log^2 N )
-**O(N)**
-O(N * log N)
-O(N * sqrt N)_
+_**Answer:**_  
+_O(sqrt N)  
+O(log N)  
+O(log^2 N )  
+**O(N)**  
+O(N * log N)  
+O(N * sqrt N)_  
 ************************************************************
 
 **13. What is the worst case time complexity of the following code:**
@@ -218,12 +218,12 @@ int findMinPath(vector<vector<int> > &V, int r, int c) {
 ```
 Assume R = V.size() and C = V[0].size().
 
-_**Answer:**_
-_**O(2^(R + C))**
-O(R*C)
-O(R + C)
-O(R*R + C*C)
-O(R*C*log(R*C))_
+_**Answer:**_  
+_**O(2^(R + C))**  
+O(R*C)  
+O(R + C)  
+O(R*R + C*C)  
+O(R*C*log(R*C))_  
 ************************************************************
 
 **14. What is the worst case time complexity of the following code:**
@@ -245,12 +245,12 @@ memset(memo, -1, sizeof(memo));
 findMinPath(V, 0, 0);
 Assume R = V.size() and C = V[0].size() and V has positive elements
 
-_**Answer:**_
-_O(2^(R + C))
-**O(R*C)**
-O(R + C)
-O(R*R + C*C)
-O(R*C*log(R*C))_
+_**Answer:**_  
+_O(2^(R + C))  
+**O(R*C)**  
+O(R + C)  
+O(R*R + C*C)  
+O(R*C*log(R*C))_  
 ************************************************************
 
 **15. What is the time complexity of the following code :**
@@ -263,10 +263,10 @@ for(int i = 0; i < n; ++i) {
 }
 ```
 
-_**Answer:**_
-_**O(n)**
-O(n^2)
-O(nlogn)
-O(n(logn)^2)
-Can't say. Depends on the value of arr._
+_**Answer:**_  
+_**O(n)**  
+O(n^2)  
+O(nlogn)  
+O(n(logn)^2)  
+Can't say. Depends on the value of arr._  
 ************************************************************

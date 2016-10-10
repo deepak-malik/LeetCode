@@ -13,11 +13,11 @@ for (j = 0; j < M; j++) {
 Assume that rand() is O(1) time, O(1) space function.  
 
 _**Answer :**_
-_O(N * M) time, O(1) space
-O(N + M) time, O(N + M) space
-**O(N + M) time, O(1) space**
-O(N * M) time, O(N + M) space
-O(N * M) time, O(N * M) space_
+_O(N * M) time, O(1) space  
+O(N + M) time, O(N + M) space  
+**O(N + M) time, O(1) space**  
+O(N * M) time, O(N + M) space  
+O(N * M) time, O(N * M) space_  
 ************************************************************
 
 **2. What is the time, space complexity of following code :**
@@ -34,11 +34,11 @@ for (k = 0; k < N; k++) {
 ```
 
 _**Answer :**_
-_**O(N * N) time, O(1) space**
-O(N) time, O(N) space
-O(N) time, O(N) space
-O(N * N) time, O(N) space
-O(N * N * N) time, O(1) space_
+_**O(N * N) time, O(1) space**  
+O(N) time, O(N) space  
+O(N) time, O(N) space  
+O(N * N) time, O(N) space  
+O(N * N * N) time, O(1) space_  
 ************************************************************
 
 **3. What is the time complexity of the following code :**
@@ -52,10 +52,10 @@ for (i = 0; i < N; i++) {
 ```
 
 _**Answer :**_
-_O(N)
-O(N X log(N))
-**O(N ^ 2)**
-O(N X Sqrt(N))_
+_O(N)  
+O(N X log(N))  
+**O(N ^ 2)**  
+O(N X Sqrt(N))_  
 ************************************************************
 
 **4. What does it mean when we say that an algorithm X is asymptotically more efficient than Y?**

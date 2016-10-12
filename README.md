@@ -7,3 +7,4 @@ This repository contains solutions to problems available on Interview Bit. They 
 **1. Linked List**
 - [X] [Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
 - [X] [Add two numbers in linked list](../master/src/com/deepak/interviewbit/LinkedList/AddTwoNumbers.java)
+- [X] [Partition list](../master/src/com/deepak/interviewbit/LinkedList/PartitionList.java)

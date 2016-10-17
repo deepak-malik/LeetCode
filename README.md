@@ -4,6 +4,100 @@ This repository contains solutions to problems available on Interview Bit. They 
 **1. Arrays**
 - [X] [Duplicate in array](../master/src/com/deepak/interviewbit/Arrays/DuplicateInArray.java)
 
+**2. Math**
+
+**3. Binary Search**
+- [ ] Count Element Occurence
+- [ ] Rotated Array
+- [ ] Matrix Median
+- [ ] Square Root of Integer
+- [ ] Painters Partition Problem
+- [ ] Allocate Books
+- [ ] Matrix Search
+- [ ] Search for a Range
+- [ ] Sorted Insertion Position
+- [ ] Implement Power Function
+- [ ] Rotated Sorted Array Search
+- [ ] Median of Array
+
+**4. Strings**
+- [ ] Palindrome String
+- [ ] Longest Common Prefix
+- [ ] Count And Say
+- [ ] Length of Last Word
+- [ ] Reverse the String
+- [ ] Implement StrStr
+- [ ] Compare Version Numbers
+- [ ] Atoi
+- [ ] Valid Number
+- [ ] Valid IP Address
+- [ ] Roman to Integer
+- [ ] Integer to Roman
+- [ ] Add Binary Strings
+- [ ] Power of 2
+- [ ] Multiply Strings
+- [ ] Justified Text
+- [ ] ZigZag String
+- [ ] Pretty Json
+- [ ] Longest Palindromic Substring
+
+**5. Bit Manipulation**
+- [ ] Number of 1 Bits
+- [ ] Reverse Bits
+- [ ] Divide Integers
+- [ ] Different Bits sum Pairwise
+- [ ] Single Number
+- [ ] Single Number 2
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
 **2. Linked List**
 - [ ] Intersection of Linked List
 - [ ] Reverse Linked List

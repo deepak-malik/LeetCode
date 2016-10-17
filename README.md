@@ -7,7 +7,7 @@ This repository contains solutions to problems available on Interview Bit. They 
 **2. Math**
 
 **3. Binary Search**
-- [ ] Count Element Occurence
+- [ ] Count Element Occurrence
 - [ ] Rotated Array
 - [ ] Matrix Median
 - [ ] Square Root of Integer
@@ -46,7 +46,7 @@ This repository contains solutions to problems available on Interview Bit. They 
 - [ ] Reverse Bits
 - [ ] Divide Integers
 - [ ] Different Bits sum Pairwise
-- [ ] Single Number
+- [X] [Single Number](../master/src/com/deepak/interviewbit/BitManipulation/SingleNumber1.java)
 - [ ] Single Number 2
 - [ ] 
 - [ ] 

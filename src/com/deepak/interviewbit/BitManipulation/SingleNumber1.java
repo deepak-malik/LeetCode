@@ -7,7 +7,8 @@ package com.deepak.interviewbit.BitManipulation;
 /**
  * <br> Problem Statement :
  * Given an array of integers, every element appears twice except for one. Find that single one.
- * Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+ * Note: Your algorithm should have a linear runtime complexity. 
+ * Could you implement it without using extra memory?
  * 
  * Example :
  * Input : [1 2 2 3 1]
@@ -17,13 +18,6 @@ package com.deepak.interviewbit.BitManipulation;
  * @author Deepak
  */
 public class SingleNumber1 {
-	
-	/* Main method to check the Algorithm */
-	public static void main(String[] args) {
-		/* Declared a array with repeated integers except one integer */
-		int[] array = {1, 2, 2, 3, 1};
-		System.out.println(findLonelyInteger(array));
-	}
 	
 	/**
 	 * Returns the lonely integer in the array

@@ -5,9 +5,22 @@ This repository contains solutions to problems available on Interview Bit. They 
 - [X] [Duplicate in array](../master/src/com/deepak/interviewbit/Arrays/DuplicateInArray.java)
 
 **2. Linked List**
+- [ ] Intersection of Linked List
+- [ ] Reverse Linked List
 - [X] [Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
+- [ ] Remove duplicates from Sorted List 2
+- [ ] Merge two Sorted Lists
+- [ ] Remove duplicates from Sorted List
+- [ ] Remove Nth Node from list end
+- [ ] Rotate List
+- [ ] Reverse Linked List 2
+- [ ] ReOrder List
 - [X] [Add two numbers in linked list](../master/src/com/deepak/interviewbit/LinkedList/AddTwoNumbers.java)
+- [ ] List Cycle
 - [X] [Partition list](../master/src/com/deepak/interviewbit/LinkedList/PartitionList.java)
+- [ ] Insertion Sort List
+- [ ] Sort List
+- [ ] Swap List Nodes in Pair  
 
 **3. Trees**  
 - [ ] Next Greater number BST

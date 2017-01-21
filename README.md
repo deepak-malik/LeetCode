@@ -22,7 +22,7 @@ This repository contains solutions to problems available on Interview Bit. They 
 
 **4. Strings**
 - [X] [01 - Palindrome String](../master/src/com/deepak/interviewbit/Strings/Problem_01.java)
-- [ ] 02 - Longest Common Prefix
+- [X] [02 - Longest Common Prefix](../master/src/com/deepak/interviewbit/Strings/Problem_02.java)
 - [ ] 03 - Count And Say
 - [ ] 04 - Length of Last Word
 - [ ] 05 - Reverse the String

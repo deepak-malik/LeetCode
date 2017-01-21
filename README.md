@@ -21,11 +21,11 @@ This repository contains solutions to problems available on Interview Bit. They 
 - [ ] Median of Array
 
 **4. Strings**
-- [ ] Palindrome String
-- [ ] Longest Common Prefix
-- [ ] Count And Say
-- [ ] Length of Last Word
-- [ ] Reverse the String
+- [X] [01 - Palindrome String](../master/src/com/deepak/interviewbit/Strings/Problem_01.java)
+- [ ] 02 - Longest Common Prefix
+- [ ] 03 - Count And Say
+- [ ] 04 - Length of Last Word
+- [ ] 05 - Reverse the String
 - [ ] Implement StrStr
 - [ ] Compare Version Numbers
 - [ ] Atoi

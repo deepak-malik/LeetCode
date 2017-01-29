@@ -53,17 +53,17 @@ They are divided based on the topics. Problems containing * are part of some oth
 **2. Linked List**
 - [X] [01 - Intersection of Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_01.java)
 - [X] [02 - Reverse Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_02.java)
-- [X] [03 - Palindrome list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
+- [X] [03 - Palindrome list*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
 - [ ] 04 - Remove duplicates from Sorted List 2
 - [ ] 05 - Merge two Sorted Lists
 - [ ] 06 - Remove duplicates from Sorted List
-- [X] [07 - Remove Nth Node from list end*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
+- [X] [07 - Remove Nth Node from list end*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
 - [ ] 08 - Rotate List
 - [ ] 09 - Reverse Linked List 2
 - [ ] 10 - Reorder List
-- [X] [11 - Add two numbers in linked list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_05.java)
-- [X] [12 - List Cycle*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
-- [X] [13 - Partition list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
+- [X] [11 - Add two numbers in linked list*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_05.java)
+- [X] [12 - List Cycle*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
+- [X] [13 - Partition list*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 14 - Insertion Sort List
 - [ ] 15 - Sort List
 - [ ] 16 - Swap List Nodes in Pair  

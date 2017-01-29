@@ -1,5 +1,6 @@
 ## InterviewBit
-This repository contains solutions to problems available on Interview Bit. They are divided based on the topics.
+This repository contains solutions to problems available on Interview Bit. 
+They are divided based on the topics. Problems containing * are part of some other repository (Already solved).
 
 **1. Arrays**
 - [X] [Duplicate in array](../master/src/com/deepak/interviewbit/Arrays/DuplicateInArray.java)
@@ -52,17 +53,17 @@ This repository contains solutions to problems available on Interview Bit. They 
 **2. Linked List**
 - [X] [01 - Intersection of Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_01.java)
 - [X] [02 - Reverse Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_02.java)
-- [X] [03 - Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
+- [X] [03 - Palindrome list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
 - [ ] 04 - Remove duplicates from Sorted List 2
 - [ ] 05 - Merge two Sorted Lists
 - [ ] 06 - Remove duplicates from Sorted List
-- [ ] 07 - Remove Nth Node from list end
+- [X] [07 - Remove Nth Node from list end*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
 - [ ] 08 - Rotate List
 - [ ] 09 - Reverse Linked List 2
 - [ ] 10 - Reorder List
-- [X] [11 - Add two numbers in linked list](../master/src/com/deepak/interviewbit/LinkedList/AddTwoNumbers.java)
+- [X] [11 - Add two numbers in linked list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_05.java)
 - [ ] 12 - List Cycle
-- [X] [13 - Partition list](../master/src/com/deepak/interviewbit/LinkedList/PartitionList.java)
+- [X] [13 - Partition list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 14 - Insertion Sort List
 - [ ] 15 - Sort List
 - [ ] 16 - Swap List Nodes in Pair  

@@ -50,22 +50,22 @@ This repository contains solutions to problems available on Interview Bit. They 
 - [ ] Single Number 2
 
 **2. Linked List**
-- [ ] Intersection of Linked List
-- [ ] Reverse Linked List
-- [X] [Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
-- [ ] Remove duplicates from Sorted List 2
-- [ ] Merge two Sorted Lists
-- [ ] Remove duplicates from Sorted List
-- [ ] Remove Nth Node from list end
-- [ ] Rotate List
-- [ ] Reverse Linked List 2
-- [ ] ReOrder List
-- [X] [Add two numbers in linked list](../master/src/com/deepak/interviewbit/LinkedList/AddTwoNumbers.java)
-- [ ] List Cycle
-- [X] [Partition list](../master/src/com/deepak/interviewbit/LinkedList/PartitionList.java)
-- [ ] Insertion Sort List
-- [ ] Sort List
-- [ ] Swap List Nodes in Pair  
+- [X] [01 - Intersection of Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_01.java)
+- [ ] 02 - Reverse Linked List
+- [X] [03 - Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
+- [ ] 04 - Remove duplicates from Sorted List 2
+- [ ] 05 - Merge two Sorted Lists
+- [ ] 06 - Remove duplicates from Sorted List
+- [ ] 07 - Remove Nth Node from list end
+- [ ] 08 - Rotate List
+- [ ] 09 - Reverse Linked List 2
+- [ ] 10 - Reorder List
+- [X] [11 - Add two numbers in linked list](../master/src/com/deepak/interviewbit/LinkedList/AddTwoNumbers.java)
+- [ ] 12 - List Cycle
+- [X] [13 - Partition list](../master/src/com/deepak/interviewbit/LinkedList/PartitionList.java)
+- [ ] 14 - Insertion Sort List
+- [ ] 15 - Sort List
+- [ ] 16 - Swap List Nodes in Pair  
 
 **3. Trees**  
 - [ ] Next Greater number BST

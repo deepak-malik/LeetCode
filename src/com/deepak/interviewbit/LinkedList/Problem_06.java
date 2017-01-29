@@ -4,8 +4,6 @@
  */
 package com.deepak.interviewbit.LinkedList;
 
-
-
 /**
  * <br> Problem Statement :
  * 

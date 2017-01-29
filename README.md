@@ -62,7 +62,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [ ] 09 - Reverse Linked List 2
 - [ ] 10 - Reorder List
 - [X] [11 - Add two numbers in linked list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_05.java)
-- [ ] 12 - List Cycle
+- [X] [12 - List Cycle*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
 - [X] [13 - Partition list*](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 14 - Insertion Sort List
 - [ ] 15 - Sort List

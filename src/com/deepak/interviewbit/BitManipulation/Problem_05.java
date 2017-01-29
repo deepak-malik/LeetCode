@@ -1,11 +1,12 @@
 /**
  * InterviewBit
- * SingleNumber1.java
+ * Problem_05.java
  */
 package com.deepak.interviewbit.BitManipulation;
 
 /**
  * <br> Problem Statement :
+ * 
  * Given an array of integers, every element appears twice except for one. Find that single one.
  * Note: Your algorithm should have a linear runtime complexity. 
  * Could you implement it without using extra memory?
@@ -17,8 +18,8 @@ package com.deepak.interviewbit.BitManipulation;
  * 
  * @author Deepak
  */
-public class SingleNumber1 {
-	
+public class Problem_05 {
+
 	/**
 	 * Returns the lonely integer in the array
 	 * 

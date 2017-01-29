@@ -24,79 +24,30 @@ This repository contains solutions to problems available on Interview Bit. They 
 - [X] [01 - Palindrome String](../master/src/com/deepak/interviewbit/Strings/Problem_01.java)
 - [X] [02 - Longest Common Prefix](../master/src/com/deepak/interviewbit/Strings/Problem_02.java)
 - [ ] 03 - Count And Say
-- [ ] 04 - Length of Last Word
-- [ ] 05 - Reverse the String
-- [ ] Implement StrStr
-- [ ] Compare Version Numbers
-- [ ] Atoi
-- [ ] Valid Number
-- [ ] Valid IP Address
-- [ ] Roman to Integer
-- [ ] Integer to Roman
-- [ ] Add Binary Strings
-- [ ] Power of 2
-- [ ] Multiply Strings
-- [ ] Justified Text
-- [ ] ZigZag String
-- [ ] Pretty Json
-- [ ] Longest Palindromic Substring
+- [X] 04 - Length of Last Word
+- [X] 05 - Reverse the String
+- [X] 06 - Implement StrStr
+- [X] 07 - Compare Version Numbers
+- [ ] 08 - Atoi
+- [ ] 09 - Valid Number
+- [ ] 10 - Valid IP Address
+- [ ] 11 - Roman to Integer
+- [ ] 12 - Integer to Roman
+- [ ] 13 - Add Binary Strings
+- [X] 14 - Power of 2
+- [ ] 15 - Multiply Strings
+- [ ] 16 - Justified Text
+- [ ] 17 - ZigZag String
+- [ ] 18 - Pretty Json
+- [ ] 19 - Longest Palindromic Substring
 
 **5. Bit Manipulation**
 - [ ] Number of 1 Bits
 - [ ] Reverse Bits
 - [ ] Divide Integers
 - [ ] Different Bits sum Pairwise
-- [X] [Single Number](../master/src/com/deepak/interviewbit/BitManipulation/SingleNumber1.java)
+- [X] [Single Number](../master/src/com/deepak/interviewbit/BitManipulation/Problem_05.java)
 - [ ] Single Number 2
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
 
 **2. Linked List**
 - [ ] Intersection of Linked List

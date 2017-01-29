@@ -1,11 +1,12 @@
 /**
  * InterviewBit
- * NumberOf1Bits.java
+ * Problem_01.java
  */
 package com.deepak.interviewbit.BitManipulation;
 
 /**
- * <br> Problem Statement ;
+ * <br> Problem Statement :
+ * 
  * Write a function that takes an unsigned integer and returns the number of 1 bits it has.
  * 
  * Example: 
@@ -14,11 +15,12 @@ package com.deepak.interviewbit.BitManipulation;
  * so the function should return 3.
  * 
  * Note that since Java does not have unsigned int, use long for Java
+ * 
  * </br>
  *  
  * @author Deepak
  */
-public class NumberOf1Bits {
+public class Problem_01 {
 
 	/* Main method to check the algorithm */
 	public static void main(String[] args) {

@@ -58,32 +58,6 @@ public class Problem_04 {
 	}
 
 	/**
-	 * Method to remove duplicates keeping only unique
-	 * 
-	 * @param head
-	 * @return {@link head}
-	 */
-	public static Node removeDuplicatesOnlyUnique(Node head) {
-		/* If head is null or we have just one element, return head */
-		if (head == null || head.next == null) {
-			return head;
-		}
-		/* Have a current pointer at head */
-		Node current = head;
-		/* Check for next 2 occurrences for comparison */
-		while (current != null && current.next != null) {
-			/* If they matches, drop duplicate and mark next node,
-			 * else increment current */
-			if (current.data == current.next.data) {
-				current.next = current.next.next;
-			} else {
-				current = current.next;
-			}
-		}
-		return head;
-	}
-
-	/**
 	 * Class for a Linked list node
 	 * 
 	 * @author Deepak

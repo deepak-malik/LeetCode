@@ -1,6 +1,6 @@
 /**
  * InterviewBit
- * Problem_04_Test.java
+ * Problem_06_Test.java
  */
 package com.deepak.interviewbit.LinkedList;
 
@@ -8,14 +8,14 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.deepak.interviewbit.LinkedList.Problem_04.Node;
+import com.deepak.interviewbit.LinkedList.Problem_06.Node;
 
 /**
- * Test cases for removing duplicates
+ * Test cases for problem 06
  * 
  * @author Deepak
  */
-public class Problem_04_Test {
+public class Problem_06_Test {
 
 	/* Initialize head node */
 	Node node1 = null;
@@ -40,12 +40,12 @@ public class Problem_04_Test {
 	}
 
 	/**
-	 * Test case to remove all occurrences if a duplicate is found
+	 * Test case to remove all duplicates and keep only unique
 	 */
 	@Test
-	public void testRemoveDuplicatesAll() {
+	public void testRemoveDuplicatesOnlyUnique() {
 		Assert.assertEquals(node1.printForward(), "1->2->3->3->4->4->5");
-		Assert.assertEquals(Problem_04.removeDuplicatesAll(node1).printForward(), "1->2->5");
+		Assert.assertEquals(Problem_06.removeDuplicatesOnlyUnique(node1).printForward(), "1->2->3->4->5");
 	}
 
 }

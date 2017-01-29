@@ -55,7 +55,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [X] [02 - Reverse Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_02.java)
 - [X] [03 - Palindrome list*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
 - [X] [04 - Remove duplicates from Sorted List 2](../master/src/com/deepak/interviewbit/LinkedList/Problem_04.java)
-- [ ] 05 - Merge two Sorted Lists
+- [X] [05 - Merge two Sorted Lists](../master/src/com/deepak/interviewbit/LinkedList/Problem_05.java)
 - [X] [06 - Remove duplicates from Sorted List](../master/src/com/deepak/interviewbit/LinkedList/Problem_06.java)
 - [X] [07 - Remove Nth Node from list end*](https://github.com/bug-bug-bug/Cracking-The-Coding-Interview/blob/master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
 - [ ] 08 - Rotate List

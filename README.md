@@ -51,7 +51,7 @@ This repository contains solutions to problems available on Interview Bit. They 
 
 **2. Linked List**
 - [X] [01 - Intersection of Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_01.java)
-- [ ] 02 - Reverse Linked List
+- [X] [02 - Reverse Linked List](../master/src/com/deepak/interviewbit/LinkedList/Problem_02.java)
 - [X] [03 - Palindrome list](../master/src/com/deepak/interviewbit/LinkedList/PalindromeList.java)
 - [ ] 04 - Remove duplicates from Sorted List 2
 - [ ] 05 - Merge two Sorted Lists

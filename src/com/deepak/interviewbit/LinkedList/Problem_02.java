@@ -52,8 +52,6 @@ public class Problem_02 {
 	 * Class for a Linked list node
 	 * 
 	 * @author Deepak
-	 *
-	 * @param <T>
 	 */
 	public static class Node {
 

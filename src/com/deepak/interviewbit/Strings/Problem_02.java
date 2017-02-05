@@ -32,18 +32,15 @@ public class Problem_02 {
 		if (input == null || input.length == 0) {
 			return null;
 		}
-		/* Check if we have atleast two strings */
+		/* Check if we have at least two strings */
 		if (input.length < 2) {
 			throw new IllegalArgumentException("Atleast two strings are needed !!");
 		}
 		/* Loop through each of the element */
 		StringBuilder builder = new StringBuilder();
+		builder.append(input[0]);
 		for (String string : input) {
-			/* if builder's length is 0, that means it is the first entry. Add it. */
-			if (builder.length() == 0) {
-				builder.append(string);
-			}
-			/* Now, we have first word in builder and we will compare 
+			/* Now, we have first word as common prefix and we will compare 
 			 * each word with it character by character */
 			for (int i = 0; i < builder.length(); i++) {
 				/* If any character doesn't match, 
@@ -51,16 +48,9 @@ public class Problem_02 {
 				 * in the builder, so that we are left with
 				 * only the one which matched. Once all the words are
 				 * checked, we will be left with only common characters */
-				if (string.charAt(i) != builder.toString().charAt(i)) {
+				if (string.charAt(i) != builder.charAt(i)) {
 					builder.replace(i, builder.length(), "");
 				}
-			}
-			/* If it is still equals to first string, 
-			 * then we didn't find any common prefix.
-			 * Resetting the builder */
-			if (builder.toString().equalsIgnoreCase(input[0]) &&
-					!input[0].equalsIgnoreCase(input[1])) {
-				builder = new StringBuilder();
 			}
 		}
 		/* Return the final string from builder */

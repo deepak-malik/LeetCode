@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test cases to check if a String is palindrome
+ * Test cases for Problem 01
  * 
  * @author Deepak
  */

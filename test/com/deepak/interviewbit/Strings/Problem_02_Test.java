@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test cases to check for longest common prefix
+ * Test cases for Problem 02
  * 
  * @author Deepak
  */

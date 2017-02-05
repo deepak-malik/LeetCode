@@ -24,7 +24,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 **4. Strings**
 - [X] [01 - Palindrome String](../master/src/com/deepak/interviewbit/Strings/Problem_01.java)
 - [X] [02 - Longest Common Prefix](../master/src/com/deepak/interviewbit/Strings/Problem_02.java)
-- [ ] 03 - Count And Say
+- [X] [03 - Count And Say](../master/src/com/deepak/interviewbit/Strings/Problem_03.java)
 - [X] 04 - Length of Last Word
 - [X] 05 - Reverse the String
 - [X] 06 - Implement StrStr

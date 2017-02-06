@@ -29,7 +29,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [X] [05 - Reverse the String](../master/src/com/deepak/interviewbit/Strings/Problem_05.java)
 - [X] [06 - Implement StrStr](../master/src/com/deepak/interviewbit/Strings/Problem_06.java)
 - [X] [07 - Compare Version Numbers](../master/src/com/deepak/interviewbit/Strings/Problem_07.java)
-- [ ] 08 - Atoi
+- [X] [08 - Atoi](../master/src/com/deepak/interviewbit/Strings/Problem_08.java)
 - [ ] 09 - Valid Number
 - [ ] 10 - Valid IP Address
 - [ ] 11 - Roman to Integer

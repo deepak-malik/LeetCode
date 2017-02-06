@@ -26,7 +26,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [X] [02 - Longest Common Prefix](../master/src/com/deepak/interviewbit/Strings/Problem_02.java)
 - [X] [03 - Count And Say](../master/src/com/deepak/interviewbit/Strings/Problem_03.java)
 - [X] [04 - Length of Last Word](../master/src/com/deepak/interviewbit/Strings/Problem_04.java)
-- [X] 05 - Reverse the String
+- [X] [05 - Reverse the String](../master/src/com/deepak/interviewbit/Strings/Problem_05.java)
 - [X] 06 - Implement StrStr
 - [X] 07 - Compare Version Numbers
 - [ ] 08 - Atoi

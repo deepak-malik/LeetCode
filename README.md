@@ -27,7 +27,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [X] [03 - Count And Say](../master/src/com/deepak/interviewbit/Strings/Problem_03.java)
 - [X] [04 - Length of Last Word](../master/src/com/deepak/interviewbit/Strings/Problem_04.java)
 - [X] [05 - Reverse the String](../master/src/com/deepak/interviewbit/Strings/Problem_05.java)
-- [X] 06 - Implement StrStr
+- [X] [06 - Implement StrStr](../master/src/com/deepak/interviewbit/Strings/Problem_06.java)
 - [X] 07 - Compare Version Numbers
 - [ ] 08 - Atoi
 - [ ] 09 - Valid Number

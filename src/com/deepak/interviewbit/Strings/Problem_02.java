@@ -11,6 +11,7 @@ package com.deepak.interviewbit.Strings;
  * Longest common prefix for a pair of strings S1 and S2 is the longest string S which is the prefix of both S1 and S2.
  * As an example, longest common prefix of "abcdefgh" and "abcefgh" is "abc".
  * Given the array of strings, you need to find the longest S which is the prefix of ALL the strings in the array.
+ * 
  * Example: Given the array as:
  * ["abcdefgh", "aefghijk", "abcefgh"]
  * The answer would be “a”.
@@ -23,6 +24,10 @@ public class Problem_02 {
 
 	/**
 	 * Method to find the longest common prefix
+	 * Note : This method uses a inbuilt function - substring
+	 * 
+	 * Time Complexity : indexOf takes O(m*n) where m is length of string and n is pattern
+	 * Space Complexity : O(1)
 	 * 
 	 * @param input
 	 * @return {@link String}
@@ -30,31 +35,17 @@ public class Problem_02 {
 	public static String longestCommonPrefix(String[] input) {
 		/* Check if array is null or length is 0 */
 		if (input == null || input.length == 0) {
-			return null;
+			return "";
 		}
-		/* Check if we have at least two strings */
-		if (input.length < 2) {
-			throw new IllegalArgumentException("Atleast two strings are needed !!");
-		}
-		/* Loop through each of the element */
-		StringBuilder builder = new StringBuilder();
-		builder.append(input[0]);
-		for (String string : input) {
-			/* Now, we have first word as common prefix and we will compare 
-			 * each word with it character by character */
-			for (int i = 0; i < builder.length(); i++) {
-				/* If any character doesn't match, 
-				 * we replace all further characters by blank 
-				 * in the builder, so that we are left with
-				 * only the one which matched. Once all the words are
-				 * checked, we will be left with only common characters */
-				if (string.charAt(i) != builder.charAt(i)) {
-					builder.replace(i, builder.length(), "");
-				}
+		String prefix = input[0];
+		for (int i = 0; i < input.length; i++) {
+			/* Index of returns 0 if substring exists */
+			while (input[i].indexOf(prefix) != 0) {
+				/* If substring does not exists, start removing characters from end */
+				prefix = prefix.substring(0, prefix.length() - 1);
 			}
 		}
-		/* Return the final string from builder */
-		return builder.toString();
+		return prefix;
 	}
 
 }

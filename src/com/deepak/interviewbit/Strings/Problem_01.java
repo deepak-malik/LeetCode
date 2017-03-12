@@ -19,7 +19,10 @@ package com.deepak.interviewbit.Strings;
 public class Problem_01 {
 
 	/**
-	 * Method to check of a string is palindrome
+	 * Method to check if a string is palindrome
+	 * 
+	 * Time Complexity : O(c) => Where c is number of characters in input 
+	 * Space Complexity : O(n) => Using StringBuilder, and in worst case n characters could be pushed to it 
 	 * 
 	 * @param input
 	 * @return {@link int}
@@ -27,7 +30,7 @@ public class Problem_01 {
 	public static int isPalindrome(String input) {
 		/* Check for null or empty string */
 		if (input == null || input.isEmpty()) {
-			return 1;
+			return 0;
 		}
 		/* Convert to charArray and check if each digit is a character 
 		 * If yes, append to the builder */
@@ -52,6 +55,43 @@ public class Problem_01 {
 			}
 			/* Keep moving towards middle from both sides */
 			i++; j--;
+		}
+		return 1;
+	}
+
+	/**
+	 * Method to check if a string is palindrome
+	 * 
+	 * Time Complexity : O(c) => Where c is number of characters in input 
+	 * Space Complexity : O(n) => Converting to char array is linear time
+	 * 
+	 * @param input
+	 * @return {@link int}
+	 */
+	public static int isPalindrome_Alternative(String input) {
+		/* Check for null or empty string */
+		if (input == null || input.length() == 0) {
+			return 0;
+		}
+		/* Convert input to lower case and then character array */
+		char[] array = input.toLowerCase().toCharArray();
+		int i = 0;
+		int j = array.length - 1;
+		/* Start comparison from both start and end, 
+		 * if any one of them is not a valid character, move to next,
+		 * else compare it. If doesn't match, return 0 */
+		while (i < j) {
+			if (!Character.isLetterOrDigit(array[i])) {
+				i++;
+				continue;
+			} else if (!Character.isLetterOrDigit(array[j])) {
+				j--;
+				continue;
+			} else if (array[i] != array[j]) {
+				return 0;
+			}
+			i++;
+			j--;
 		}
 		return 1;
 	}

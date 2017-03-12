@@ -26,6 +26,9 @@ public class Problem_03 {
 	/**
 	 * Method to count and say the number
 	 * 
+	 * Time Complexity : O(n) => Where n is number of characters in n 
+	 * Space Complexity : O(n) => Worst case, all numbers from n will be pushed to builder
+	 * 
 	 * @param n
 	 * @return {@link String}
 	 */

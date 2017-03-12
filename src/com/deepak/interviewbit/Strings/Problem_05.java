@@ -27,6 +27,10 @@ public class Problem_05 {
 	/**
 	 * Method to reverse the string
 	 * 
+	 * Time Complexity : O(n) => Where n is number of words in the input
+	 * Space Complexity : O(n) => Extra space for StringBuilder and it may contains n words
+	 * Leetcode Runtime : 13 ms
+	 * 
 	 * @param input
 	 * @return {@link String}
 	 */
@@ -49,6 +53,35 @@ public class Problem_05 {
 		}
 		/* Join with white spaces and return */
 		return String.join(" ", words);
+	}
+
+	/**
+	 * Method to reverse the string 
+	 * 
+	 * Time Complexity : O(n) => Where n is number of words in the input
+	 * Space Complexity : O(n) => Extra space for StringBuilder and it may contains n words
+	 * Leetcode runtime : 9 ms
+	 * 
+	 * @param input
+	 * @return {@link String}
+	 */
+	public static String reverseString_Better(String input) {
+		/* If input is null or empty, return null */
+		if (input == null || input.length() == 0) {
+			return null;
+		}
+		/* Create a StringBuilder for result, trim the input and split based on space */
+		StringBuilder builder = new StringBuilder();
+		input = input.trim();
+		String[] strArray = input.split("\\s");
+		/* Start from last word, trim it, and if it is valid, append to builder */
+		for (int i = strArray.length - 1; i >= 0; i--) {
+			String str = strArray[i].trim();
+			if (str != null && str.length() != 0) {
+				builder.append(str + " ");	            
+			}
+		}
+		return builder.toString().trim();
 	}
 
 }

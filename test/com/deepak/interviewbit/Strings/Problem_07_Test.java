@@ -19,11 +19,11 @@ public class Problem_07_Test {
 	 */
 	@Test
 	public void testCompareVersion() {
+		Assert.assertEquals(Problem_07.compareVersionNumbers("", ""), 0);
+		Assert.assertEquals(Problem_07.compareVersionNumbers(null, null), 0);
 		Assert.assertEquals(Problem_07.compareVersionNumbers("1.13.4", "1.13"), 1);
 		Assert.assertEquals(Problem_07.compareVersionNumbers("1.13.4.3.4", "1.13"), 1);
 		Assert.assertEquals(Problem_07.compareVersionNumbers("1.13.4", "1.13.4"), 0);
-		Assert.assertEquals(Problem_07.compareVersionNumbers("", ""), 0);
-		Assert.assertEquals(Problem_07.compareVersionNumbers(null, null), 0);
 		Assert.assertEquals(Problem_07.compareVersionNumbers("1.13.4", "1.13.4.3.4"), -1);
 		Assert.assertEquals(Problem_07.compareVersionNumbers("1.13.4", "1.13.4.0.0.0"), 0);
 	}

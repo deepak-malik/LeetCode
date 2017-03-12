@@ -25,6 +25,9 @@ public class Problem_07 {
 	/**
 	 * Method to compare version numbers
 	 * 
+	 * Time Complexity : O(l) => Where l is length of smaller string
+	 * Space Complexity : O(n) => Where n is length of numbers of bigger string
+	 * 
 	 * @param A
 	 * @param B
 	 * @return {@link int}

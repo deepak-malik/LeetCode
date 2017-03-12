@@ -19,11 +19,11 @@ public class Problem_06_Test {
 	 */
 	@Test
 	public void testStrStr() {
-		Assert.assertEquals(Problem_06.locateSubString(null, "or"), -1);
-		Assert.assertEquals(Problem_06.locateSubString("Hello World!!", null), -1);
-		Assert.assertEquals(Problem_06.locateSubString(null, null), -1);
-		Assert.assertEquals(Problem_06.locateSubString("Hello World!!", "or"), 7);
-		Assert.assertEquals(Problem_06.locateSubString("Hello World, How are you", "o"), 4);
+		Assert.assertEquals(Problem_06.strStr(null, "or"), -1);
+		Assert.assertEquals(Problem_06.strStr("Hello World!!", null), -1);
+		Assert.assertEquals(Problem_06.strStr(null, null), -1);
+		Assert.assertEquals(Problem_06.strStr("Hello World!!", "or"), 7);
+		Assert.assertEquals(Problem_06.strStr("Hello World, How are you", "o"), 4);
 	}
 
 }

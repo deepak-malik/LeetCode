@@ -23,11 +23,14 @@ public class Problem_06 {
 	/**
 	 * Method to locate a substring i.e a needle in the hay stack
 	 * 
+	 * Time Complexity : O(h) => Where h is the length of hay stack
+	 * Space Complexity : O(1) => No extra space used here
+	 * 
 	 * @param haystack
 	 * @param needle
 	 * @return {@link int}
 	 */
-	public static int locateSubString(String haystack, String needle) {
+	public static int strStr(String haystack, String needle) {
 		/* Let index be - 1, return that if hay stack or needle is null */
 		int index = -1;
 		if (haystack == null || haystack.isEmpty() || needle == null || needle.isEmpty()) {

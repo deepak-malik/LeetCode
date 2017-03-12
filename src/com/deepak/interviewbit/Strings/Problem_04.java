@@ -21,6 +21,9 @@ public class Problem_04 {
 	/**
 	 * Method to find the length of last word
 	 * 
+	 * Time Complexity : O(n) => Where n is number of characters
+	 * Space Complexity : O(l) => Extra space used for StringBuilder, it can contain l characters
+	 * 
 	 * @param input
 	 * @return {@link int}
 	 */
@@ -48,6 +51,36 @@ public class Problem_04 {
 			return builder.length();
 		}
 		return 0;
+	}
+
+	/**
+	 * Method to find the length of last word
+	 * 
+	 * Time Complexity : O(l) => Where l is the length of last word
+	 * Space Complexity : O(1) => No extra space used, x is using String, but thats constant space
+	 * 
+	 * @param input
+	 * @return {@link int}
+	 */
+	public static int lengthOfLastWord_Better(final String input) {
+		/* If input is empty, return 0 */
+		if (input == null || input.length() == 0) {
+			return 0;
+		}
+		/* Trim the input, so that we don't have to deal with white spaces at the end */
+		String x = input.trim();
+		int size = 0;
+		int high = x.length() - 1;
+		/* Start from last word and break when we see first space */
+		while (high >= 0) {
+			if (x.charAt(high) == ' ') {
+				break;
+			} else {
+				size++;
+				high--;
+			}
+		}
+		return size;
 	}
 
 }

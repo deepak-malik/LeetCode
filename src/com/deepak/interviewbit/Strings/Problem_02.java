@@ -38,7 +38,7 @@ public class Problem_02 {
 			return "";
 		}
 		String prefix = input[0];
-		for (int i = 0; i < input.length; i++) {
+		for (int i = 1; i < input.length; i++) {
 			/* Index of returns 0 if substring exists */
 			while (input[i].indexOf(prefix) != 0) {
 				/* If substring does not exists, start removing characters from end */

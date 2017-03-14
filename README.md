@@ -35,7 +35,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [ ] 11 - Roman to Integer
 - [ ] 12 - Integer to Roman
 - [ ] 13 - Add Binary Strings
-- [X] 14 - Power of 2
+- [X] [14 - Power of 2](../master/src/com/deepak/interviewbit/Strings/Problem_14.java)
 - [ ] 15 - Multiply Strings
 - [ ] 16 - Justified Text
 - [ ] 17 - ZigZag String

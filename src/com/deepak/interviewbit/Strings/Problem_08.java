@@ -31,45 +31,28 @@ public class Problem_08 {
 	 * @param input
 	 * @return {@link int}
 	 */
-	public static int atoi(String input) {
-		/* If input is null or empty, no need of further processing */
-		if (input == null || input.isEmpty()) {
+	public static int atoi(String str) {
+		/* If string is null or length is zero, no need to process further */
+		if (str == null || str.length() == 0) {
 			return 0;
 		}
-		/* Trim the input to avoid whitespace issues */
-		input = input.trim();
-		/* Check the input after trimming */
-		if (input.isEmpty()) {
-			return 0;
-		}
-		/* Start from the first character and check the sign.
-		 * Increment the counter as well */
-		int i = 0;
-		boolean positiveFlag = true;
-		if (input.charAt(0) == '-') {
-			positiveFlag = false;
-			i++;
-		} else if (input.charAt(0) == '+') {
+		int sign = 1, base = 0, i = 0;
+		/* Discard all leading white spaces */
+		while (str.charAt(i) == ' ') {
 			i++;
 		}
-		/* Find the result */
-		int result = 0;
-		while (input.length() > i && input.charAt(i) >= '0' && input.charAt(i) <= '9') {
-			result = result * 10 + (Character.getNumericValue(input.charAt(i)));
-			i++;
+		/* Check sign of the number */
+		if (str.charAt(i) == '-' || str.charAt(i) == '+') {
+			sign = str.charAt(i++) == '-' ? -1 : 1;
 		}
-		/* Adjust the sign */
-		if (!positiveFlag) {
-			result = -result;
+		/* Check for Overflow */
+		while (i < str.length() && str.charAt(i) >= '0' && str.charAt(i) <= '9') {
+			if (base > Integer.MAX_VALUE / 10 || (base == Integer.MAX_VALUE / 10 && str.charAt(i) - '0' > Integer.MAX_VALUE % 10)) {
+				return (sign == 1) ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+			}
+			base = 10 * base + (str.charAt(i++) - '0');
 		}
-		/* Handle min and max values */
-		if (result > Integer.MAX_VALUE) {
-			return Integer.MAX_VALUE;
-		}
-		if (result < Integer.MIN_VALUE) {
-			return Integer.MIN_VALUE;
-		}
-		return result;
+		return base * sign;
 	}
 
 }

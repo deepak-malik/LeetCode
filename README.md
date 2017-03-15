@@ -87,7 +87,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [ ] 16 - ZigZag level order traversal BT
 - [ ] 17 - Populate next right pointers Tree
 - [X] [18 - InOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_18.java)
-- [ ] 19 - PreOrder Traversal
+- [X] [19 - PreOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_19.java)
 - [ ] 20 - PostOrder Traversal
 - [X] [21 - LevelOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_21.java)
 - [ ] 22 - Path Sum

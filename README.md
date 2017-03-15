@@ -86,7 +86,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [ ] 15 - Invert Binary Tree
 - [ ] 16 - ZigZag level order traversal BT
 - [ ] 17 - Populate next right pointers Tree
-- [ ] 18 - InOrder Traversal
+- [X] [18 - InOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_18.java)
 - [ ] 19 - PreOrder Traversal
 - [ ] 20 - PostOrder Traversal
 - [X] [21 - LevelOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_21.java)

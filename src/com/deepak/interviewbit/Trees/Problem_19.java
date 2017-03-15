@@ -76,19 +76,4 @@ public class Problem_19 {
 		return result;
 	}
 
-	public static void main(String[] args) {
-		TreeNode<Integer> root = new TreeNode<Integer>(3);
-		TreeNode<Integer> node1 = new TreeNode<Integer>(2);
-		TreeNode<Integer> node2 = new TreeNode<Integer>(5);
-		TreeNode<Integer> node3 = new TreeNode<Integer>(7);
-		TreeNode<Integer> node4 = new TreeNode<Integer>(9);
-		root.setLeft(node1);
-		root.setRight(node2);
-		node2.setLeft(node3);
-		node2.setRight(node4);
-		preOrderTraversal_Recursive(root);
-		System.out.println();
-		System.out.println(preOrderTraversal_Iterative(root).toString());
-	}
-
 }

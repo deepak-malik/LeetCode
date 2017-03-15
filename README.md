@@ -88,7 +88,7 @@ They are divided based on the topics. Problems containing * are part of some oth
 - [ ] 17 - Populate next right pointers Tree
 - [X] [18 - InOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_18.java)
 - [X] [19 - PreOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_19.java)
-- [ ] 20 - PostOrder Traversal
+- [X] [20 - PostOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_20.java)
 - [X] [21 - LevelOrder Traversal](../master/src/com/deepak/interviewbit/Trees/Problem_21.java)
 - [ ] 22 - Path Sum
 - [ ] 23 - Root to Leaf Paths with Sum

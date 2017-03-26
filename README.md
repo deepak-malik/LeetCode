@@ -3,7 +3,34 @@ This repository contains solutions to problems available on Interview Bit.
 They are divided based on the topics. Problems containing * are part of some other repository (Already solved).
 
 **1. Arrays**
-- [X] [Duplicate in array](../master/src/com/deepak/interviewbit/Arrays/DuplicateInArray.java)
+- [X] [01 - Min Steps in Infinite Grid](../master/src/com/deepak/interviewbit/Arrays/Problem_01.java)
+- [X] [02 - Add One To Number](../master/src/com/deepak/interviewbit/Arrays/Problem_02.java)
+- [ ] 03 - Max Sum Contiguous Subarray
+- [ ] 04 - Maximum Absolute Difference
+- [ ] 05 - Repeat and Missing Number Array
+- [ ] 06 - Flip
+- [ ] 07 - Max Non Negative SubArray
+- [ ] 08 - Spiral Order Matrix II
+- [ ] 09 - Pascal Triangle Rows
+- [ ] 10 - Kth Row of Pascal's Triangle
+- [ ] 11 - Anti Diagonals
+- [ ] 12 - Noble Integer
+- [ ] 13 - Largest Number
+- [ ] 14 - Wave Array
+- [ ] 15 - Hotel Bookings Possible
+- [ ] 16 - Max Distance
+- [ ] 17 - Maximum Unsorted Subarray
+- [ ] 18 - Find Duplicate in Array
+- [ ] 19 - Maximum Consecutive Gap
+- [ ] 20 - Rotate Matrix
+- [ ] 21 - Next Permutation
+- [ ] 22 - Find Permutation
+- [ ] 23 - Merge Intervals
+- [ ] 24 - Merge Overlapping Intervals
+- [ ] 25 - Set Matrix Zeros
+- [ ] 26 - First Missing Integer
+- [ ] 27 - Repeat and Missing Number Array
+- [ ] 28 - N/3 Repeat Number 
 
 **2. Math**
 

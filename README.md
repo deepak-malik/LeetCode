@@ -3,11 +3,12 @@ This repository contains solutions to problems available on LeetCode. They are d
 Total Questions in LeetCode - 544
 
 **1. Arrays**
-- [ ] [01 - Two Sum {Easy}]
+- [ ] 01 - Two Sum
 
 **2. HashTable**
 
 **3. Linked List**
+- [ ] 01 - Add Two Numbers
 
 **4. Math**
 
@@ -33,32 +34,22 @@ Total Questions in LeetCode - 544
 
 **15. Bit Manipulation**
 
-**16. Tree**
+**16. Trees**
 
 **17. Depth First Search**
 
 **18. Breadth First Search**
 
-**19. Union Find**
+**19. Graph**
 
-**20. Graph**
+**20. Trie**
 
-**21. Topological Sort**
+**21. Recursion**
 
-**22. Trie**
+**22. Brain Teaser**
 
-**23. Binary Indexed Tree**
+**23. Memoization**
 
-**24. Segment Tree**
+**24. Queue**
 
-**25. Binary Search Tree**
-
-**26. Recursion**
-
-**27. Brain Teaser**
-
-**28. Memoization**
-
-**29. Queue**
-
-**30. MinMax**
+**25. MinMax**

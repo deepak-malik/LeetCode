@@ -2,7 +2,86 @@
 This repository contains solutions to problems available on LeetCode. They are divided based on the topics.
 
 **1. Arrays**
-- [ ] 01 - Two Sum
+- [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
+- [ ] 02 - Median of Two Sorted Arrays
+- [ ] 03 - Container With Most Water 
+- [ ] 04 - 3 Sum
+- [ ] 05 - 3 Sum Closest
+- [ ] 06 - 4 Sum
+- [ ] 07 - Remove Duplicates From Sorted Array
+- [ ] 08 - Remove Element
+- [ ] 09 - Next Permutation
+- [ ] 10 - Search in Rotated Sorted Array
+- [ ] 11 - 
+- [ ] 12 - 
+- [ ] 13 - 
+- [ ] 14 - 
+- [ ] 15 - 
+- [ ] 16 -
+- [ ] 17 - 
+- [ ] 18 - 
+- [ ] 19 - 
+- [ ] 20 - 
+- [ ] 21 - 
+- [ ] 22 - 
+- [ ] 23 - 
+- [ ] 24 - 
+- [ ] 25 - 
+- [ ] 26 -
+- [ ] 27 - 
+- [ ] 28 - 
+- [ ] 29 - 
+- [ ] 30 - 
+- [ ] 31 - 
+- [ ] 32 - 
+- [ ] 33 - 
+- [ ] 34 - 
+- [ ] 35 - 
+- [ ] 36 -
+- [ ] 37 - 
+- [ ] 38 - 
+- [ ] 39 - 
+- [ ] 40 - 
+- [ ] 41 - 
+- [ ] 42 - 
+- [ ] 43 - 
+- [ ] 44 - 
+- [ ] 45 - 
+- [ ] 46 -
+- [ ] 47 - 
+- [ ] 48 - 
+- [ ] 49 - 
+- [ ] 50 - 
+- [ ] 51 - 
+- [ ] 52 - 
+- [ ] 53 - 
+- [ ] 54 - 
+- [ ] 55 - 
+- [ ] 56 -
+- [ ] 57 - 
+- [ ] 58 - 
+- [ ] 59 - 
+- [ ] 60 - 
+- [ ] 61 - 
+- [ ] 62 - 
+- [ ] 63 - 
+- [ ] 64 - 
+- [ ] 65 - 
+- [ ] 66 -
+- [ ] 67 - 
+- [ ] 68 - 
+- [ ] 69 - 
+- [ ] 70 - 
+- [ ] 71 - 
+- [ ] 72 - 
+- [ ] 73 - 
+- [ ] 74 - 
+- [ ] 75 - 
+- [ ] 76 -
+- [ ] 77 - 
+- [ ] 78 - 
+- [ ] 79 - 
+- [ ] 80 - 
 
 **2. HashTable**
 

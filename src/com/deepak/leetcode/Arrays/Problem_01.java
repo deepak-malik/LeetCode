@@ -1,62 +1,83 @@
 /**
- * InterviewBit
+ * LeetCode
  * Problem_01.java
  */
 package com.deepak.leetcode.Arrays;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * <br> Problem Statement :
  * 
- * You are in an infinite 2D grid where you can move in any of the 8 directions :
- * (x,y) to 
- * (x+1, y), 
- * (x - 1, y), 
- * (x, y+1), 
- * (x, y-1), 
- * (x-1, y-1), 
- * (x+1,y+1), 
- * (x-1,y+1), 
- * (x+1,y-1) 
+ * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+ * You may assume that each input would have exactly one solution, and you may not use the same element twice.
  * 
- * You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+ * Example:
+ * Given nums = [2, 7, 11, 15], target = 9,
  * 
- * Example :
- * Input : [(0, 0), (1, 1), (1, 2)]
- * Output : 2
- * It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
+ * Because nums[0] + nums[1] = 2 + 7 = 9,
+ * return [0, 1].
  * 
  * </br>
  * 
  * @author Deepak
  */
 public class Problem_01 {
-	
-	public static void main(String[] args) {
-		ArrayList<Integer> X = new ArrayList<>(Arrays.asList(0, 0));
-		ArrayList<Integer> Y = new ArrayList<>(Arrays.asList(1, 2));
-		System.out.println(coverPoints(X, Y));
+
+	/**
+	 * Method to find the indexes of two numbers whose sum is equal to target
+	 * This approach works when input is sorted
+	 * 
+	 * @param nums
+	 * @param target
+	 * @return {@link int[]}
+	 */
+	public static int[] twoSum_Sorted(int[] nums, int target) {
+		if (nums == null || nums.length == 0) {
+			return null;
+		}
+		int lowIndex = 0;
+		int highIndex = nums.length - 1;
+		while (highIndex > lowIndex) {
+			long sum = nums[lowIndex] + nums[highIndex];
+			if (sum == target) {
+				return new int[]{lowIndex, highIndex};
+			} else if (sum < target) {
+				lowIndex++;
+			} else {
+				highIndex--;
+			}
+		}
+		return null;
 	}
 
 	/**
-	 * Method to find minimum steps to move from point X to Y
+	 * Method to find the indexes of two numbers whose sum is equal to target
+	 * This approach works when input is sorted or unsorted
 	 * 
-	 * @param X
-	 * @param Y
-	 * @return {@link int}
+	 * @param nums
+	 * @param target
+	 * @return {@link int[]}
 	 */
-	public static double coverPoints(ArrayList<Integer> X, ArrayList<Integer> Y) {
-		double numSteps = 0;
-        int dx = Math.abs(X.get(1) - X.get(0));
-        int dy = Math.abs(Y.get(1) - Y.get(0));
-        int min = Math.min(dx, dy);
-        int max = Math.max(dx, dy);
-        int diagnoalSteps = min;
-        int straightSteps = max - min;
-        numSteps = (Math.sqrt(2) * diagnoalSteps) + straightSteps;
-        return numSteps;
+	public static int[] twoSum_UnSorted(int[] nums, int target) {
+		if (nums == null || nums.length == 0) {
+			return null;
+		}
+		int[] result = new int[2];
+		Map<Integer, Integer> map = new HashMap<>();
+		for (int i = 0; i < nums.length; i++) {
+			if (map.containsKey(target - nums[i])) {
+				result[0] = map.get(target - nums[i]);
+				result[1] = i;
+			}
+			/* Handle duplicates */
+			if (map.containsKey(nums[i])) {
+				continue;
+			}
+			map.put(nums[i], i);
+		}
+		return result;
 	}
 
 }

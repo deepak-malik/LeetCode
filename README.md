@@ -2,6 +2,7 @@
 This repository contains solutions to problems available on LeetCode. They are divided based on the topics.
 
 **1. Arrays**
+	- [ ] Two Sum
 
 **2. HashTable**
 

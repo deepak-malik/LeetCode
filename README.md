@@ -1,9 +1,14 @@
 ## LeetCode
-This repository contains solutions to problems available on LeetCode. They are divided based on the topics.
+This repository contains solutions to problems available on LeetCode. 
+They are divided based on the topics.
+
 Total Questions in LeetCode - 544
+Solved - 1
+
+LeetCode Numbers solved : 1,  
 
 **1. Arrays**
-- [ ] 01 - Two Sum
+- [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
 
 **2. HashTable**
 

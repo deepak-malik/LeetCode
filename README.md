@@ -2,7 +2,7 @@
 This repository contains solutions to problems available on LeetCode. They are divided based on the topics.
 
 **1. Arrays**
-- [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
+- [X] [01 - Two Sum (Sorted and UnSorted)](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
 - [ ] 02 - Median of Two Sorted Arrays
 - [ ] 03 - Container With Most Water 
 - [ ] 04 - 3 Sum

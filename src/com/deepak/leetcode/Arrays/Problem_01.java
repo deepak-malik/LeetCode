@@ -29,6 +29,9 @@ public class Problem_01 {
 	 * Method to find the indexes of two numbers whose sum is equal to target
 	 * This approach works when input is sorted
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(1)
+	 * 
 	 * @param nums
 	 * @param target
 	 * @return {@link int[]}
@@ -55,6 +58,9 @@ public class Problem_01 {
 	/**
 	 * Method to find the indexes of two numbers whose sum is equal to target
 	 * This approach works when input is sorted or unsorted
+	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(n)
 	 * 
 	 * @param nums
 	 * @param target

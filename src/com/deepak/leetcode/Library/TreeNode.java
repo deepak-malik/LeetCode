@@ -11,19 +11,20 @@ package com.deepak.leetcode.Library;
  */
 public class TreeNode<T> {
 
-	private T data;
+	private T val;
 	private TreeNode<T> left;
 	private TreeNode<T> right;
 
-	public TreeNode(T data) {
-		this.setData(data);
+	/* Constructor */
+	public TreeNode(T val) {
+		this.val = val;
 	}
 
-	public T getData() {
-		return data;
+	public T getVal() {
+		return val;
 	}
-	public void setData(T data) {
-		this.data = data;
+	public void setVal(T val) {
+		this.val = val;
 	}
 
 	public TreeNode<T> getLeft() {
@@ -42,7 +43,7 @@ public class TreeNode<T> {
 
 	@Override
 	public String toString() {
-		return "TreeNode [data=" + data + "]";
+		return "TreeNode [Val=" + val + "]";
 	}
 
 }

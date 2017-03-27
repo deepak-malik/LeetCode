@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 1, 412
+Solved - 3 
 
-LeetCode Numbers solved : 1,  
+LeetCode Numbers solved : 1, 412, 344
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -21,6 +21,7 @@ LeetCode Numbers solved : 1,
 **5. Two Pointers**
 
 **6. String**
+- [X] [Reverse String](../master/src/com/deepak/leetcode/Strings/Problem_01.java)
 
 **7. Binary Search**
 

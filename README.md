@@ -3,12 +3,13 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 7 
+Solved - 8 
 
-LeetCode Numbers solved : 1, 104, 111, 136, 258, 344, 412
+LeetCode Numbers solved : 1, 104, 111, 136, 258, 283, 344, 412
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
+- [X] [02 - Move Zeroes](../master/src/com/deepak/leetcode/Arrays/Problem_02.java)
 
 **2. HashTable**
 

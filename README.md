@@ -3,14 +3,15 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 9 
+Solved - 11
 
-LeetCode Numbers solved : 1, 104, 111, 136, 167, 258, 283, 344, 412
+LeetCode Numbers solved : 1, 104, 111, 136, 167, 258, 283, 344, 383, 412, 453
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
 - [X] [02 - Move Zeroes](../master/src/com/deepak/leetcode/Arrays/Problem_02.java)
 - [X] [03 - Two Sum II - Input array is sorted](../master/src/com/deepak/leetcode/Arrays/Problem_03.java)
+- [X] [04 - Minimum Moves to Equal Array Elements](../master/src/com/deepak/leetcode/Arrays/Problem_04.java)
 
 **2. HashTable**
 
@@ -24,7 +25,8 @@ LeetCode Numbers solved : 1, 104, 111, 136, 167, 258, 283, 344, 412
 **5. Two Pointers**
 
 **6. String**
-- [X] [Reverse String](../master/src/com/deepak/leetcode/Strings/Problem_01.java)
+- [X] [01 - Reverse String](../master/src/com/deepak/leetcode/Strings/Problem_01.java)
+- [X] [02 - Ransom Note](../master/src/com/deepak/leetcode/Strings/Problem_02.java)
 
 **7. Binary Search**
 

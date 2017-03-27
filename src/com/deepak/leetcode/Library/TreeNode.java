@@ -1,5 +1,5 @@
 /**
- * InterviewBit
+ * LeetCode
  * TreeNode.java
  */
 package com.deepak.leetcode.Library;

@@ -2,8 +2,8 @@
 This repository contains solutions to problems available on LeetCode. 
 They are divided based on the topics.
 
-Total Questions in LeetCode - 544
-Solved - 1
+Total Questions in LeetCode - 544  
+Solved - 1, 412
 
 LeetCode Numbers solved : 1,  
 
@@ -16,6 +16,7 @@ LeetCode Numbers solved : 1,
 - [ ] 01 - Add Two Numbers
 
 **4. Math**
+- [X] [01 - FizzBuzz](../master/src/com/deepak/leetcode/Math/Problem_01.java)
 
 **5. Two Pointers**
 
@@ -38,6 +39,7 @@ LeetCode Numbers solved : 1,
 **14. Sort**
 
 **15. Bit Manipulation**
+- [ ] Hamming Distance
 
 **16. Trees**
 

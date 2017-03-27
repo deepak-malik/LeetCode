@@ -22,9 +22,28 @@ package com.deepak.leetcode.Arrays;
  * @author Deepak
  */
 public class Problem_04 {
-	
+
+	/**
+	 * Method to find minimum moves needed to make array elements same
+	 * Approach : Adding 1 to (n - 1) elements is same as subtracting 1 from one element,
+	 * w.r.t the goal of making all equal
+	 * 
+	 * @param nums
+	 * @return {@link int}
+	 */
 	public static int minMoves(int[] nums) {
-		return 0;
+		if (nums == null || nums.length == 0) {
+			return 0;
+		}
+		int res = 0;
+		int min = nums[0];
+		for (int n : nums) {
+			min = Math.min(min, n);
+		}
+		for (int n : nums) {
+			res += n - min;
+		}
+		return res;
 	}
 
 }

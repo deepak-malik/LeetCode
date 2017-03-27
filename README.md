@@ -5,7 +5,7 @@ They are divided based on the topics.
 Total Questions in LeetCode - 544  
 Solved - 7 
 
-LeetCode Numbers solved : 1, 104, 111, 136, 344, 371, 412
+LeetCode Numbers solved : 1, 104, 111, 136, 258, 344, 412
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -17,6 +17,7 @@ LeetCode Numbers solved : 1, 104, 111, 136, 344, 371, 412
 
 **4. Math**
 - [X] [01 - FizzBuzz](../master/src/com/deepak/leetcode/Math/Problem_01.java)
+- [X] [02 - Add Digits](../master/src/com/deepak/leetcode/Math/Problem_02.java)
 
 **5. Two Pointers**
 

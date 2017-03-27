@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 3 
+Solved - 4 
 
-LeetCode Numbers solved : 1, 412, 344
+LeetCode Numbers solved : 1, 136, 344, 412
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -40,7 +40,8 @@ LeetCode Numbers solved : 1, 412, 344
 **14. Sort**
 
 **15. Bit Manipulation**
-- [ ] Hamming Distance
+- [ ] 01 - Hamming Distance
+- [X] [02 - Single Number](../master/src/com/deepak/leetcode/BitManipulation/Problem_02.java)
 
 **16. Trees**
 

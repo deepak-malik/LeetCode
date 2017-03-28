@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 19
+Solved - 20
 
-LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 283, 344, 383, 387, 404, 409, 412, 453, 541
+LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 268, 283, 344, 383, 387, 404, 409, 412, 453, 541
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -14,6 +14,7 @@ LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 283, 3
 - [X] [04 - Minimum Moves to Equal Array Elements](../master/src/com/deepak/leetcode/Arrays/Problem_04.java)
 - [X] [05 - Majority Element](../master/src/com/deepak/leetcode/Arrays/Problem_05.java)
 - [X] [06 - Contains Duplicate](../master/src/com/deepak/leetcode/Arrays/Problem_06.java)
+- [X] [07 - Missing Number](../master/src/com/deepak/leetcode/Arrays/Problem_07.java)
 
 **2. HashTable**
 - [X] [01 - Valid Anagram](../master/src/com/deepak/leetcode/HashTable/Problem_01.java)

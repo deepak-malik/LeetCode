@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 13
+Solved - 14
 
-LeetCode Numbers solved : 1, 104, 111, 136, 167, 258, 283, 344, 383, 387, 404, 412, 453
+LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 258, 283, 344, 383, 387, 404, 412, 453
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -54,6 +54,7 @@ LeetCode Numbers solved : 1, 104, 111, 136, 167, 258, 283, 344, 383, 387, 404, 4
 - [X] [01 - Minimum Depth of Binary Tree](../master/src/com/deepak/leetcode/Trees/Problem_01.java)
 - [X] [02 - Maximum Depth of Binary Tree](../master/src/com/deepak/leetcode/Trees/Problem_02.java)
 - [X] [03 - Sum of Left Leaves](../master/src/com/deepak/leetcode/Trees/Problem_03.java)
+- [X] [04 - Same Tree](../master/src/com/deepak/leetcode/Trees/Problem_04.java)
 
 **17. Depth First Search**
 

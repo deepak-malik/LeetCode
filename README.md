@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 22
+Solved - 23
 
-LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 217, 242, 258, 268, 283, 
+LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 202, 217, 242, 258, 268, 283, 
 344, 383, 387, 404, 409, 412, 415, 453, 541
 
 **1. Arrays**
@@ -28,6 +28,7 @@ LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 217, 242, 258, 2
 - [X] [01 - FizzBuzz](../master/src/com/deepak/leetcode/Math/Problem_01.java)
 - [X] [02 - Add Digits](../master/src/com/deepak/leetcode/Math/Problem_02.java)
 - [X] [03 - Add Strings](../master/src/com/deepak/leetcode/Math/Problem_03.java)
+- [X] [04 - Happy Number](../master/src/com/deepak/leetcode/Math/Problem_04.java)
 
 **5. Two Pointers**
 

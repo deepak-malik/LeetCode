@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 18
+Solved - 19
 
-LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 283, 344, 383, 387, 404, 409, 412, 453
+LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 283, 344, 383, 387, 404, 409, 412, 453, 541
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -32,6 +32,7 @@ LeetCode Numbers solved : 1, 104, 100, 111, 136, 167, 169, 217, 242, 258, 283, 3
 - [X] [01 - Reverse String](../master/src/com/deepak/leetcode/Strings/Problem_01.java)
 - [X] [02 - Ransom Note](../master/src/com/deepak/leetcode/Strings/Problem_02.java)
 - [X] [03 - First Unique Character in a String](../master/src/com/deepak/leetcode/Strings/Problem_03.java)
+- [X] [04 - Reverse String II](../master/src/com/deepak/leetcode/Strings/Problem_04.java)
 
 **7. Binary Search**
 

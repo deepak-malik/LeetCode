@@ -3,10 +3,10 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 23
+Solved - 24
 
 LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 202, 217, 242, 258, 268, 283, 
-344, 383, 387, 404, 409, 412, 415, 453, 541
+344, 383, 387, 404, 409, 412, 415, 453, 501, 541
 
 **1. Arrays**
 - [X] [01 - Two Sum](../master/src/com/deepak/leetcode/Arrays/Problem_01.java)
@@ -43,6 +43,7 @@ LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 202, 217, 242, 2
 **8. Divide and Conquer**
 
 **9. Dynamic Programming**
+- [ ] 01 - Climbing Stairs
 
 **10. BackTracking**
 
@@ -65,6 +66,7 @@ LeetCode Numbers solved : 1, 104, 100, 108, 111, 136, 167, 169, 202, 217, 242, 2
 - [X] [03 - Sum of Left Leaves](../master/src/com/deepak/leetcode/Trees/Problem_03.java)
 - [X] [04 - Same Tree](../master/src/com/deepak/leetcode/Trees/Problem_04.java)
 - [X] [05 - Convert Sorted Array to Binary Search Tree](../master/src/com/deepak/leetcode/Trees/Problem_05.java)
+- [X] [06 - Find Mode in Binary Search Tree](../master/src/com/deepak/leetcode/Trees/Problem_06.java)
 
 **17. Depth First Search**
 

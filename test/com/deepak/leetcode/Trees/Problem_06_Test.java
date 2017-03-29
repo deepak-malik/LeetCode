@@ -1,0 +1,54 @@
+/**
+ * LeetCode
+ * Problem_06_Test.java
+ */
+package com.deepak.leetcode.Trees;
+
+import java.util.Arrays;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.deepak.leetcode.Library.TreeNode;
+
+/**
+ * Test cases for Problem 06
+ * 
+ * @author Deepak
+ */
+public class Problem_06_Test {
+
+	TreeNode<Integer> root;
+
+	/**
+	 * Setting up the tree
+	 * 			 3
+	 * 			/ \
+	 * 		   3  20
+	 * 			 /  \
+	 * 			15   20
+	 */
+	@Before
+	public void setup() {
+		root = new TreeNode<Integer>(3);
+		TreeNode<Integer> node1 = new TreeNode<Integer>(3);
+		TreeNode<Integer> node2 = new TreeNode<Integer>(20);
+		TreeNode<Integer> node3 = new TreeNode<Integer>(15);
+		TreeNode<Integer> node4 = new TreeNode<Integer>(20);
+		root.setLeft(node1);
+		root.setRight(node2);
+		node2.setLeft(node3);
+		node2.setRight(node4);
+	}
+
+	/**
+	 * Test case to find mode in a BST
+	 */
+	@Test
+	public void testModeInBST() {
+		Assert.assertEquals(Problem_06.findMode(null), null);
+		Assert.assertEquals(Arrays.toString(Problem_06.findMode(root)), "[3, 20]");
+	}
+
+}

@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 28
+Solved - 29
 
-LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 111, 136, 167, 169, 202, 217, 242, 258, 268, 283, 
+LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 110, 111, 136, 167, 169, 202, 217, 242, 258, 268, 283, 
 344, 345, 383, 387, 404, 409, 412, 415, 453, 501, 541
 
 **1. Arrays**
@@ -71,6 +71,7 @@ LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 111, 136, 167, 169, 202
 - [X] [05 - Convert Sorted Array to Binary Search Tree](../master/src/com/deepak/leetcode/Trees/Problem_05.java)
 - [X] [06 - Find Mode in Binary Search Tree](../master/src/com/deepak/leetcode/Trees/Problem_06.java)
 - [X] [07 - Symmetric Tree](../master/src/com/deepak/leetcode/Trees/Problem_07.java)
+- [X] [08 - Balanced Binary Tree](../master/src/com/deepak/leetcode/Trees/Problem_08.java)
 
 **17. Depth First Search**
 

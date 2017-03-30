@@ -13,19 +13,19 @@ package com.deepak.leetcode.Library;
  */
 public class LinkedListNode<T> {
 
-	private T data;
+	private T val;
 	private LinkedListNode<T> next;
 
 	/* Constructor */
-	private LinkedListNode(T data) {
-		this.setData(data);
+	public LinkedListNode(T val) {
+		this.setVal(val);
 	}
 
-	public T getData() {
-		return data;
+	public T getVal() {
+		return val;
 	}
-	public void setData(T data) {
-		this.data = data;
+	public void setVal(T val) {
+		this.val = val;
 	}
 
 	public LinkedListNode<T> getNext() {
@@ -37,7 +37,7 @@ public class LinkedListNode<T> {
 
 	@Override
 	public String toString() {
-		return "LinkedListNode [data=" + data + "]";
+		return "LinkedListNode [val=" + val + "]";
 	}
 
 }

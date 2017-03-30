@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 29
+Solved - 31
 
-LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 110, 111, 136, 167, 169, 202, 217, 242, 258, 268, 283, 
+LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 110, 111, 136, 167, 169, 202, 217, 225, 232, 242, 258, 268, 283, 
 344, 345, 383, 387, 404, 409, 412, 415, 453, 501, 541
 
 **1. Arrays**
@@ -89,5 +89,6 @@ LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 110, 111, 136, 167, 169
 **23. Memoization**
 
 **24. Queue**
+- [X] [01 - Implement Queue using Stacks](../master/src/com/deepak/leetcode/Queue/Problem_01.java)
 
 **25. MinMax**

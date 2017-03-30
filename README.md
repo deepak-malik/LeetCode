@@ -3,9 +3,9 @@ This repository contains solutions to problems available on LeetCode.
 They are divided based on the topics.
 
 Total Questions in LeetCode - 544  
-Solved - 33
+Solved - 34
 
-LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 136, 141, 167, 169, 202, 217, 225, 
+LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136, 141, 167, 169, 202, 217, 225, 
 232, 242, 258, 268, 283, 344, 345, 383, 387, 404, 409, 412, 415, 453, 501, 541
 
 **1. Arrays**
@@ -42,6 +42,7 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 136, 141,
 - [X] [03 - First Unique Character in a String](../master/src/com/deepak/leetcode/Strings/Problem_03.java)
 - [X] [04 - Reverse String II](../master/src/com/deepak/leetcode/Strings/Problem_04.java)
 - [X] [05 - Reverse Vowels of a String](../master/src/com/deepak/leetcode/Strings/Problem_05.java)
+- [ ] 06 - Find All Anagrams in a String
 
 **7. Binary Search**
 
@@ -75,6 +76,7 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 136, 141,
 - [X] [06 - Find Mode in Binary Search Tree](../master/src/com/deepak/leetcode/Trees/Problem_06.java)
 - [X] [07 - Symmetric Tree](../master/src/com/deepak/leetcode/Trees/Problem_07.java)
 - [X] [08 - Balanced Binary Tree](../master/src/com/deepak/leetcode/Trees/Problem_08.java)
+- [X] [09 - Path Sum](../master/src/com/deepak/leetcode/Trees/Problem_09.java)
 
 **17. Depth First Search**
 

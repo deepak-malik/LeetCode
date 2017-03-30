@@ -51,6 +51,7 @@ LeetCode Numbers solved : 1, 27, 66, 101, 104, 100, 108, 110, 111, 136, 167, 169
 **10. BackTracking**
 
 **11. Stack**
+- [X] [01 - Implement Stack using Queues](../master/src/com/deepak/leetcode/Stack/Problem_01.java)
 
 **12. Heap**
 

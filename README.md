@@ -100,5 +100,6 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136,
 **25. MinMax**
 
 **26. Database**
+- [X] [Introduction](../master/Database/Introduction.sql) 
 - [X] [01 - Duplicate Emails](../master/Database/Problem_01.sql)
 - [X] [02 - Combine Two Tables](../master/Database/Problem_02.sql)

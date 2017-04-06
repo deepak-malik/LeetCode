@@ -88,6 +88,7 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136,
 **20. Trie**
 
 **21. Recursion**
+- [ ] 01 - Nested List Weight Sum
 
 **22. Brain Teaser**
 
@@ -97,3 +98,6 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136,
 - [X] [01 - Implement Queue using Stacks](../master/src/com/deepak/leetcode/Queue/Problem_01.java)
 
 **25. MinMax**
+
+**26. Database**
+- [X] [01 - Duplicate Emails](../master/Database/Problem_01.sql)

@@ -104,3 +104,4 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136,
 - [X] [01 - Duplicate Emails](../master/Database/Problem_01.sql)
 - [X] [02 - Combine Two Tables](../master/Database/Problem_02.sql)
 - [X] [03 - Employees Earning More Than Their Managers](../master/Database/Problem_03.sql)
+- [X] [04 - Second Highest Salary](../master/Database/Problem_04.sql)

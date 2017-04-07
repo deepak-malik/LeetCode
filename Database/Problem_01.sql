@@ -19,4 +19,7 @@
 -- +---------+
 -- Note: All email's are in lower case.
 
-SELECT Email FROM Person GROUP BY Email HAVING COUNT(*) > 1;
+SELECT Email 
+	FROM Person
+GROUP BY Email 
+	HAVING COUNT(*) > 1;

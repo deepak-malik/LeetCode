@@ -108,3 +108,5 @@ LeetCode Numbers solved : 1, 26, 27, 66, 101, 104, 100, 108, 110, 111, 112, 136,
 - [X] [05 - Customers Who Never Order](../master/Database/Problem_05.sql)
 - [X] [06 - Delete Duplicate Emails](../master/Database/Problem_06.sql)
 - [X] [07 - Rising Temperature](../master/Database/Problem_07.sql)
+- [X] [08 - Rank Scores](../master/Database/Problem_08.sql)
+- [X] [09 - Consecutive Numbers](../master/Database/Problem_09.sql)
